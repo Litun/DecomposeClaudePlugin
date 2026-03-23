@@ -26,11 +26,14 @@ This project uses **[Decompose](https://github.com/arkivanov/Decompose)** for mu
 | Master-detail responsive layout | `ChildPanels` + `PanelsNavigation` |
 | Lazy list of live components | `ChildItems` |
 
-## Available Skills
+## Available Commands & Skills
 
-Use these slash commands for detailed guidance and code patterns:
+**Slash command** — invoke explicitly for deep guidance:
 
-- `/decompose:decompose-component` — component structure, lifecycle, state/instance keeping, back handling
-- `/decompose:decompose-navigation` — choosing and implementing navigation models with full examples
-- `/decompose:decompose-compose` — Compose UI integration (subscribeAsState, Children, animations, previews)
-- `/decompose:decompose-platform` — platform setup (Android, iOS SwiftUI/Compose, Desktop, Web)
+- `/decompose:setup` — scan and fix Decompose setup (dependencies, all platforms)
+
+**Auto-invoked skills** — Claude loads these automatically when relevant:
+
+- `decompose-component` — component structure, lifecycle, state preservation, instance retaining, back handling
+- `decompose-navigation` — choosing and implementing ChildStack, ChildSlot, ChildPages, ChildPanels, ChildItems
+- `decompose-compose` — Compose UI integration, `subscribeAsState()`, `Children()`, animations, previews
