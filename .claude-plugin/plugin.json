@@ -1,0 +1,9 @@
+{
+  "name": "decompose",
+  "description": "Production best practices for Decompose — multiplatform navigation and component lifecycle library. Provides slash commands and auto-invoked skills covering component structure, all navigation models (Stack, Slot, Pages, Panels), Compose UI integration, and platform setup (Android, iOS, Desktop, Web).",
+  "author": {
+    "name": "Aleksandr Litovchenko",
+    "url": "https://github.com/Litun/DecomposeClaudePlugin"
+  },
+  "homepage": "https://github.com/Litun/DecomposeClaudePlugin"
+}
